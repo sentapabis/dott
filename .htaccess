@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^harthlighting.com [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.harthlighting.com [NC]
+RewriteRule ^(.*)$ https://rumahpurwokerto.id/$1 [L,R=301,NC]
